@@ -12,11 +12,11 @@ public class Rectangle {
     /**
      * Berechnet die Fläche des Rechtecks
      *
-     * @return  den Flöcheninhalt
+     * @return  den Flächeninhalt
      */
     public double calculateArea(double width, double height) {
         // please implement method
-        calculateArea(4,3);
+
         double Area = width * height;
         return Area;
     }
@@ -27,7 +27,7 @@ public class Rectangle {
      */
     public double calculateScope(double width, double height) {
         // please implement method
-        calculateScope(4,3);
+
         double umf = 2*(width + height);
         return umf;
     }
