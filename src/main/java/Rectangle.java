@@ -14,7 +14,7 @@ public class Rectangle {
      *
      * @return  den Flächeninhalt
      */
-    public double calculateArea(double width, double height) {
+    public double calculateArea () {
         // please implement method
 
         double Area = width * height;
@@ -25,7 +25,7 @@ public class Rectangle {
      * Berechnet den Umfang des Rechtecks
      * @return den Umfang
      */
-    public double calculateScope(double width, double height) {
+    public double calculateScope() {
         // please implement method
 
         double umf = 2*(width + height);
